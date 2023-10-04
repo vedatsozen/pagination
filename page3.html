@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div id="buttons">
+<p style="color: white;">You are viewing third page</p>
+</div>
+
+<button class="back" onclick="back()"><img src="back.png"></button>
+
+<h1>HERE IS <span>THIRD</span> PAGE</h1>
+<p>Web development is our job.</p>
+
+<div id="texts">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et venenatis justo, id laoreet ligula. Praesent a eros nec risus pellentesque tincidunt vel nec purus. Integer orci nunc, vestibulum et consectetur vitae, euismod quis dui. Nunc luctus iaculis sagittis. Sed quis gravida libero. Cras lorem nisl, varius ac tempor vitae, convallis at purus. Sed eu eros interdum, ultricies arcu ac, pulvinar sem. Mauris ornare lectus vel turpis ultrices, fringilla commodo enim bibendum. Curabitur volutpat iaculis ligula, eu rutrum odio rutrum sit amet. Aliquam sed mi fermentum, mollis urna sed, hendrerit elit. Sed vestibulum bibendum nulla, quis viverra arcu hendrerit non.
+
+        Curabitur varius eros sed purus sollicitudin, sit amet iaculis felis placerat. Cras diam velit, elementum nec urna eget, tempus pulvinar tortor. Nunc mattis convallis mattis. Ut a efficitur massa. Nullam scelerisque consequat purus, in rutrum risus aliquam eu. Integer in mauris lacinia, dictum neque eget, semper ligula. Aenean et maximus mauris. Sed feugiat feugiat justo vitae placerat. Aliquam convallis efficitur cursus. Mauris non ornare risus. Ut id eros ac felis pulvinar aliquam quis tristique nulla. Nulla sagittis dapibus velit non tempus. Duis lobortis sem non mi vulputate ornare quis sit amet risus. Cras id dui turpis. Proin eget tristique urna.
+        
+        In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam quis ante id neque suscipit tempus. Integer eu lobortis ipsum, nec semper urna. Mauris gravida eros blandit, malesuada leo sed, tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut lacus tincidunt felis bibendum sodales vel sit amet felis. Suspendisse dapibus arcu lacinia purus mattis, in rhoncus ipsum commodo. Nunc aliquet laoreet urna, ac porttitor arcu sollicitudin in.</p>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et venenatis justo, id laoreet ligula. Praesent a eros nec risus pellentesque tincidunt vel nec purus. Integer orci nunc, vestibulum et consectetur vitae, euismod quis dui. Nunc luctus iaculis sagittis. Sed quis gravida libero. Cras lorem nisl, varius ac tempor vitae, convallis at purus. Sed eu eros interdum, ultricies arcu ac, pulvinar sem. Mauris ornare lectus vel turpis ultrices, fringilla commodo enim bibendum. Curabitur volutpat iaculis ligula, eu rutrum odio rutrum sit amet. Aliquam sed mi fermentum, mollis urna sed, hendrerit elit. Sed vestibulum bibendum nulla, quis viverra arcu hendrerit non.
+
+Curabitur varius eros sed purus sollicitudin, sit amet iaculis felis placerat. Cras diam velit, elementum nec urna eget, tempus pulvinar tortor. Nunc mattis convallis mattis. Ut a efficitur massa. Nullam scelerisque consequat purus, in rutrum risus aliquam eu. Integer in mauris lacinia, dictum neque eget, semper ligula. Aenean et maximus mauris. Sed feugiat feugiat justo vitae placerat. Aliquam convallis efficitur cursus. Mauris non ornare risus. Ut id eros ac felis pulvinar aliquam quis tristique nulla. Nulla sagittis dapibus velit non tempus. Duis lobortis sem non mi vulputate ornare quis sit amet risus. Cras id dui turpis. Proin eget tristique urna.
+
+In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam quis ante id neque suscipit tempus. Integer eu lobortis ipsum, nec semper urna. Mauris gravida eros blandit, malesuada leo sed, tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut lacus tincidunt felis bibendum sodales vel sit amet felis. Suspendisse dapibus arcu lacinia purus mattis, in rhoncus ipsum commodo. Nunc aliquet laoreet urna, ac porttitor arcu sollicitudin in.
+    </p>
+</div>
+
+</body>
+
+<script>
+
+function topage(pagenumber) {
+  var page = ["page1", "page2", "page3"];
+  window.location.href = page[pagenumber - 1] + ".html";
+}
+
+function back() {
+    window.history.back();
+}
+</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div id="buttons">
+<p style="margin:auto; color: white;">You are viewing third page</p>       
+</div>
+
+<button class="back" onclick="back()"><img src="back.png"></button>
+<h1>HERE IS <span>SECOND</span> PAGE</h1>
+<p>Web development is our job.</p>
+
+<div id="images">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+</div>
+
+</body>
+
+<script>
+
+function topage(pagenumber) {
+  var page = ["page1", "page2", "page3"];
+  window.location.href = page[pagenumber - 1] + ".html";
+}
+
+function back() {
+    window.history.back();
+}
+</script>
+</html>
