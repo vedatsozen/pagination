@@ -39,7 +39,15 @@ In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus
 </body>
 
 <script>
+function topage(pagenumber) {
+  var page = ["page2", "page3"];
+  window.location.href = page[pagenumber - 2] + ".html";
 
+}
+
+function tohome() {
+  window.location.href = "index.html";
+}
 
 function back() {
     window.history.back();
